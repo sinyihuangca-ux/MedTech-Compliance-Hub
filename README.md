@@ -86,7 +86,6 @@ For example, a fictional ultrasound device could contain a Power Supply, Main PC
 
 ## 3. VS Code Project Folder Structure
 
-I recommend using a separated frontend and backend architecture. Even if the first version only contains the interface, you can organize the files with this structure in mind.
 
 ```
 medtech-compliance-hub/
@@ -136,13 +135,9 @@ medtech-compliance-hub/
 └── .gitignore
 ```
 
-React is suitable for breaking the interface into reusable components. Express can handle the API layer, while SQLite is appropriate for an initial, single-developer portfolio project.
-
-You can refer to the official [React Quick Start](https://react.dev/learn) and [Express Database Integration Guide](https://expressjs.com/en/guide/database-integration/).
 
 ## 4. How Should the Database Be Designed?
 
-I recommend planning at least the following database tables. This is also a valuable opportunity to demonstrate your Database Systems knowledge.
 
 | Table           | Purpose                                                     |
 | --------------- | ----------------------------------------------------------- |
@@ -166,11 +161,8 @@ The main relationships can be designed as follows:
 - Issues can be associated with products, components, testing records, and risk records.
 - Case studies demonstrate selected examples of these workflows.
 
-This is an initial conceptual data model. Before implementing the database, you will need to define each table's primary keys, foreign keys, field types, and more precise relationships between testing, risk management, and documentation.
 
 ## 5. How Should the Six Real-World Case Studies Be Presented?
-
-You mentioned that you eventually want to include six real-world cases. I recommend starting with the following six topics as provisional categories, then adjusting them according to the work you actually performed.
 
 ### Case 01 — Electrical Safety Testing
 
@@ -196,13 +188,6 @@ Usability-related risks and documentation.
 
 External laboratory scheduling, documentation, and issue tracking.
 
-Each case study can contain two sections:
-
-- **Professional Experience Summary:** Describe the work you genuinely participated in, your responsibilities, and any outcomes that can be disclosed publicly.
-- **System Demonstration:** Use fictional data in your own system to demonstrate how testing, risk management, documentation, and project progress can be managed.
-
-If different case studies involve the same product or project, first confirm what information can be disclosed. Do not upload real customer data to a public website or GitHub repository.
-
 ## 6. Recommended Three-Phase Development Plan
 
 ### Phase 1 — UI Prototype
@@ -214,8 +199,6 @@ Use fictional data stored in `demoData.js`. No backend is required at this stage
 ### Phase 2 — Database & CRUD
 
 Add SQLite and an Express API. Implement Create, Read, Update, and Delete (CRUD) functionality for products, testing records, risk records, and issues.
-
-This is when you will begin using a real database.
 
 ### Phase 3 — Six Case Studies & Deployment
 
