@@ -188,7 +188,7 @@ Usability-related risks and documentation.
 
 External laboratory scheduling, documentation, and issue tracking.
 
-## 6. Recommended Three-Phase Development Plan
+## 6.Three-Phase Development Plan
 
 ### Phase 1 — UI Prototype
 
