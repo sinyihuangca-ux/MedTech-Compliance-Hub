@@ -1,0 +1,60 @@
+/* Main application layout */ 
+
+.app { 
+    min-height: 100vh; 
+} 
+
+/* Website header */ 
+
+.app-header { 
+    padding: 32px 40px; 
+    background-color: #ffffff; 
+    border-bottom: 1px solid #dbe2ea; } 
+
+.app-header h1 { 
+    margin-bottom: 8px; 
+    color: #163a5f; 
+    font-size: 28px; 
+    font-weight: 700; 
+} 
+
+.app-header p { 
+    margin-bottom: 0; 
+    color: #64748b; 
+    font-size: 14px; } 
+
+/* Main content area */ 
+
+.app-main { 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 40px; 
+} 
+
+.app-main h2 { 
+    margin-bottom: 16px; 
+    color: #163a5f; 
+    font-size: 24px; 
+} 
+
+.app-main p { 
+    max-width: 720px; 
+    color: #475569; 
+    font-size: 16px; 
+} 
+
+/* Responsive layout for smaller screens */ 
+
+@media (max-width: 768px) { 
+    .app-header {
+         padding: 24px;
+         } 
+
+    .app-header h1 { 
+    font-size: 23px; 
+    } 
+
+    .app-main { 
+        padding: 24px; 
+    } 
+} 
