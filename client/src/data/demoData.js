@@ -128,4 +128,15 @@ export const productIssues = [
     priority: 'Medium',
     status: 'In Progress'
   }
+  {
+    id: 4,
+    productId: 'MD-004',
+    productName: 'Transcranial Magnetic Stimulation (TMS) System',
+    category: 'Non-invasive Brain Stimulation Therapy',
+    manufacturer: 'V.R. Corp.',
+    model: 'TMS-D01',
+    description:
+      'A computerized, electromechanical medical device that delivers non-invasive magnetic stimulation to targeted regions of the cerebral cortex.',
+    status: 'Document Review Completed'
+  }
 ];
