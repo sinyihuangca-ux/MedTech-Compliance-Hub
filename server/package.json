@@ -1,0 +1,17 @@
+
+{
+  "name": "medtech-compliance-hub-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Backend API for the MedTech Compliance Hub portfolio project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.4.1",
+    "express": "^5.1.0"
+  }
+}
